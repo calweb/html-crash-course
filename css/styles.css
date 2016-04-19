@@ -1,0 +1,124 @@
+body {
+  background-color: pink;
+  margin: 0;
+  padding: 0;
+}
+.bgImg {
+  display: block;
+  width: 100%;
+  min-height: 450px;
+  background: url('../bg.jpg') top left no-repeat;
+  background-size: cover;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.content {
+  padding: 10px;
+}
+section, aside {
+  display: inline-block;
+  vertical-align: top;
+}
+
+section {
+  width: 75%;
+}
+
+aside {
+  width: 24.5%;
+}
+header, footer {
+  display: block;
+  width: 100%;
+  background-color: #505050; /* roughly charcoal grey */
+  min-height: 20px;
+}
+header ul, footer ul {
+  margin: 0;
+  padding: 0;
+}
+
+header li, footer li {
+  display: inline-block;
+  padding: 20px;
+}
+header a, footer a {
+  text-decoration: none;
+  color: white;
+}
+
+header li:hover, footer li:hover {
+  background-color: white;
+  color: #505050;
+}
+header li:hover a, footer li:hover a {
+  color: #505050;
+}
+
+.row {
+  display: block;
+  clear: both;
+}
+.row:before {
+  content: '';
+  clear: both;
+}
+.row:after {
+  content: '';
+  clear: both;
+}
+.red {
+  background-color: red;
+}
+.blue {
+  background-color: blue;
+}
+.column-10, .column-9, .column-8, .column-5, .column-3, .column-1 {
+  display: inline-block;
+  vertical-align: top;
+}
+.column-10 {
+  width: 100%;
+}
+.column-9 {
+  width: 90%;
+}
+.column-8 {
+  width: 79%;
+}
+.column-7 {
+  width: 70%;
+}
+.column-6 {
+  width: 60%;
+}
+.column-5 {
+  width: 49%;
+}
+.column-4 {}
+.column-3 {}
+.column-2 {}
+.column-1 {
+  width: 9.5%;
+}
+
+/* for fun css animation/transitions */
+
+.box {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background: green;
+  margin: 10px;
+  transition: all .8s ease-in-out;
+}
+.box:hover {
+  background-color: red;
+  /*width: 250px;
+  height: 10px;*/
+  /*transform: rotate(-90deg);*/
+  transform: scale(2);
+}
