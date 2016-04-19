@@ -7,6 +7,8 @@ We covered a lot of really fun stuff:
 - CSS Layout
 - CSS transitions and transforms
 
+To See the final result, check it out [here](http://calweb.github.io/html-crash-course/)
+
 ## Resources
 
 ### Readings
